@@ -1,9 +1,9 @@
-class Appointments
+class Appointment
 
-  attr_accessor :name
+  attr_accessor :date
 
-  def initialize(name)
-    @name = name
+  def initialize(date)
+    @date = date
 
   end
 
