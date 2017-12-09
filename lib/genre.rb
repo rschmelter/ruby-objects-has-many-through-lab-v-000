@@ -3,6 +3,7 @@ class Genre
 
   def intialize(name)
     @name = name
+    @songs = []
 
   end
 
